@@ -4,44 +4,6 @@ This project implements an **IoT-based Noise Level Monitoring System** using the
 
 ---
 
-## **Features**
-- **Real-Time Noise Detection**:
-  - Measures noise levels in decibels (dB) using the MAX4466 sound sensor.
-  - Categorizes noise as:
-    - **Low** (≤ 50 dB): Green LED ON.
-    - **Moderate** (51-70 dB): Yellow LED ON.
-    - **High** (> 70 dB): Red LED ON.
-- **User-Friendly Visual Feedback**:
-  - LCD displays current noise level and category.
-  - LEDs provide instant visual feedback.
-- **Cloud Integration**:
-  - Stores noise data for long-term analysis.
-  - Visualizes trends on the V-One dashboard.
-  - Sends email and push notifications for noise threshold breaches.
-
----
-
-## **Project Workflow**
-Below is the workflow used for noise level data preprocessing, training, validation, and visualization:
-
-![Classifier Workflow](Diagram/Noise Level Monitoring Classifier Workflow.png)
-
----
-
-## **Dashboard**
-The V-One dashboard provides an intuitive visualization of noise levels:
-
-![Dashboard](Diagram/Noise Level Monitoring in Study Area Dashboard.jpg)
-
----
-
-## **Notification System**
-The system notifies users through email and push notifications when noise levels exceed predefined thresholds:
-
-![Notification Workflow](Diagram/Noise Level Monitoring Notification.png)
-
----
-
 ## **Hardware Setup**
 The hardware setup includes the following components:
 - **ESP32 NodeMCU**: Microcontroller.
@@ -51,7 +13,7 @@ The hardware setup includes the following components:
 - **Breadboard and Jumper Wires**: Circuit connections.
 
 ### Circuit Diagram
-![Hardware Setup](Diagram/Sound Level Detection IoT Hardware Setup Diagram.png)
+![Hardware Setup](Diagram/Sound%20Level%20Detection%20IoT%20Hardware%20Setup%20Diagram.png)
 
 ---
 
@@ -81,6 +43,44 @@ The hardware setup includes the following components:
 
 ---
 
+## **Features**
+- **Real-Time Noise Detection**:
+  - Measures noise levels in decibels (dB) using the MAX4466 sound sensor.
+  - Categorizes noise as:
+    - **Low** (≤ 50 dB): Green LED ON.
+    - **Moderate** (51-70 dB): Yellow LED ON.
+    - **High** (> 70 dB): Red LED ON.
+- **User-Friendly Visual Feedback**:
+  - LCD displays current noise level and category.
+  - LEDs provide instant visual feedback.
+- **Cloud Integration**:
+  - Stores noise data for long-term analysis.
+  - Visualizes trends on the V-One dashboard.
+  - Sends email and push notifications for noise threshold breaches.
+
+---
+
+## **Project Workflow**
+Below is the workflow used for noise level data preprocessing, training, validation, and visualization:
+
+![Classifier Workflow](Diagram/Noise%20Level%20Monitoring%20Classifier%20Workflow.png)
+
+---
+
+## **Dashboard**
+The V-One dashboard provides an intuitive visualization of noise levels:
+
+![Dashboard](Diagram/Noise%20Level%20Monitoring%20in%20Study%20Area%20Dashboard.jpg)
+
+---
+
+## **Notification System**
+The system notifies users through email and push notifications when noise levels exceed predefined thresholds:
+
+![Notification Workflow](Diagram/Noise%20Level%20Monitoring%20Notification.png)
+
+---
+
 ## **Future Enhancements**
 - Integration with additional sensors (e.g., temperature, humidity).
 - Mobile application for real-time control and notifications.
@@ -94,4 +94,4 @@ This project is licensed under the **Apache License 2.0**. You may use this proj
 ---
 
 ## **Contact**
-For questions or support, feel free to contact the project maintainer at [huixins929@gmail.com].
+For questions or support, feel free to contact at [huixins929@gmail.com].
