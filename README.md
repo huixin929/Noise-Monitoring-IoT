@@ -94,4 +94,4 @@ This project is licensed under the **Apache License 2.0**. You may use this proj
 ---
 
 ## **Contact**
-For questions or support, feel free to contact at [huixins929@gmail.com].
+For questions or support, feel free to contact at [huixins929@gmail.com] or [d2t9fatinshahirah@gmail.com].
